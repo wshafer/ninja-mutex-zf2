@@ -1,0 +1,26 @@
+{
+    "name": "wshafer/ninja-mutex-zf2",
+    "description": "ZF2 Wrapper for arvenil/ninja-mutex.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "mutex",
+        "framework",
+        "zf2"
+    ],
+    "homepage": "https://github.com/wshafer/ninja-mutex-zf2",
+    "support": {
+        "email": "westin@havenly.com",
+        "source": "https://github.com/wshafer/ninja-mutex-zf2",
+        "issues": "https://github.com/wshafer/ninja-mutex-zf2/issues"
+    },
+    "require": {
+        "zendframework/zendframework": "2.*",
+        "arvenil/ninja-mutex": "^0.5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "WShafer\\NinjaMutexZf2\\": "src/"
+        }
+    }
+}
